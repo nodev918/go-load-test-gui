@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+Exec	package/hello/Makefile	/^Exec := "package"$/;"	m
+FYNE	docs/tutorial.md	/^# FYNE$/;"	c
+Icon	package/hello/Makefile	/^Icon := "package.png"$/;"	m
+LOCAL	package/hello/Makefile	/^LOCAL ?= $(shell test -d $(DESTDIR)\/usr\/local && echo "\/local" || echo "")$/;"	m
+Name	package/hello/Makefile	/^Name := "package"$/;"	m
+PREFIX	package/hello/Makefile	/^PREFIX ?= \/usr$(LOCAL)$/;"	m
+TestGreeting	testing/main_test.go	/^func TestGreeting(t *testing.T) {$/;"	f	package:main
+clock	Makefile	/^clock:$/;"	t
+default	package/hello/Makefile	/^default:$/;"	t
+enviroment	docs/tutorial.md	/^## enviroment$/;"	s
+getting started	docs/tutorial.md	/^## getting started$/;"	s
+hello	Makefile	/^hello:$/;"	t
+install	package/hello/Makefile	/^install:$/;"	t
+main	cmd/clock.go	/^func main() {$/;"	f	package:main
+main	cmd/clock.go	/^package main$/;"	p
+main	cmd/handle.go	/^func main() {$/;"	f	package:main
+main	cmd/handle.go	/^package main$/;"	p
+main	cmd/hello.go	/^func main() {$/;"	f	package:main
+main	cmd/hello.go	/^package main$/;"	p
+main	cmd/main.go	/^func main() {$/;"	f	package:main
+main	cmd/main.go	/^package main$/;"	p
+main	cmd/multipleWindow.go	/^func main() {$/;"	f	package:main
+main	cmd/multipleWindow.go	/^package main$/;"	p
+main	cmd/package.go	/^func main() {$/;"	f	package:main
+main	cmd/package.go	/^package main$/;"	p
+main	package/hello/main.go	/^func main() {$/;"	f	package:main
+main	package/hello/main.go	/^package main$/;"	p
+main	testing/main.go	/^func main() {$/;"	f	package:main
+main	testing/main.go	/^package main$/;"	p
+main	testing/main_test.go	/^package main$/;"	p
+main.TestGreeting	testing/main_test.go	/^func TestGreeting(t *testing.T) {$/;"	f	package:main
+main.main	cmd/clock.go	/^func main() {$/;"	f	package:main
+main.main	cmd/handle.go	/^func main() {$/;"	f	package:main
+main.main	cmd/hello.go	/^func main() {$/;"	f	package:main
+main.main	cmd/main.go	/^func main() {$/;"	f	package:main
+main.main	cmd/multipleWindow.go	/^func main() {$/;"	f	package:main
+main.main	cmd/package.go	/^func main() {$/;"	f	package:main
+main.main	package/hello/main.go	/^func main() {$/;"	f	package:main
+main.main	testing/main.go	/^func main() {$/;"	f	package:main
+main.makeUI	testing/main.go	/^func makeUI() (*widget.Label, *widget.Entry) {$/;"	f	package:main	typeref:typename:(*widget.Label, *widget.Entry)
+main.updateTime	cmd/clock.go	/^func updateTime(clock *widget.Label) {$/;"	f	package:main
+main.updateTime	cmd/hello.go	/^func updateTime(clock *widget.Label) {$/;"	f	package:main
+makeUI	testing/main.go	/^func makeUI() (*widget.Label, *widget.Entry) {$/;"	f	package:main	typeref:typename:(*widget.Label, *widget.Entry)
+multiple	Makefile	/^multiple:$/;"	t
+uninstall	package/hello/Makefile	/^uninstall:$/;"	t
+updateTime	cmd/clock.go	/^func updateTime(clock *widget.Label) {$/;"	f	package:main
+updateTime	cmd/hello.go	/^func updateTime(clock *widget.Label) {$/;"	f	package:main
+user-install	package/hello/Makefile	/^user-install:$/;"	t
+user-uninstall	package/hello/Makefile	/^user-uninstall:$/;"	t
